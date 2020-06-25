@@ -28,15 +28,21 @@ const App: () => React$Node = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
+          testID="demo-scroll"
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <View style={styles.body}>
             <View>
-              <Text style={styles.header}>Detox Demo</Text>
+              <Text testID="demo-header" style={styles.header}>
+                Detox Demo
+              </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Input example</Text>
+              <Text testID="demo-input-title" style={styles.sectionTitle}>
+                Input example
+              </Text>
               <TextInput
+                testID="demo-input"
                 style={{
                   height: 40,
                   borderColor: 'gray',
@@ -46,15 +52,20 @@ const App: () => React$Node = () => {
               />
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Button Example</Text>
+              <Text testID="demo-button-title" style={styles.sectionTitle}>
+                Button Example
+              </Text>
               <Button
+                testID="demo-button"
                 title="Press me"
                 onPress={() => Alert.alert('Button pressed')}
               />
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Text Example</Text>
-              <Text style={styles.sectionDescription}>
+              <Text testID="demo-text-title" style={styles.sectionTitle}>
+                Text Example
+              </Text>
+              <Text testID="demo-text" style={styles.sectionDescription}>
                 This is some <Text style={styles.highlight}>cool text</Text>{' '}
                 example
               </Text>
