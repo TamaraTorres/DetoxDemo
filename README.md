@@ -1,2 +1,0 @@
-# DetoxDemo
-Testing
