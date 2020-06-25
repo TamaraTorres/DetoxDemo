@@ -31,7 +31,7 @@ const App: () => React$Node = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <View style={styles.body}>
-            <View >
+            <View>
               <Text style={styles.header}>Detox Demo</Text>
             </View>
             <View style={styles.sectionContainer}>
@@ -55,8 +55,9 @@ const App: () => React$Node = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Text Example</Text>
               <Text style={styles.sectionDescription}>
-                This is some <Text style={styles.highlight}>cool text</Text> example 
-               </Text>
+                This is some <Text style={styles.highlight}>cool text</Text>{' '}
+                example
+              </Text>
             </View>
           </View>
         </ScrollView>
