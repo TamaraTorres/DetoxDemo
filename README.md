@@ -34,7 +34,7 @@ If you want to run on ios, you will need to check the simulator you have running
 `detox test -c ios.debug`
 
 
-If you want to run on android, you will need to check the emulator and start it before execute the test, update yours on  [detox configuration] (https://github.com/TamaraTorres/DetoxDemo/blob/master/.detoxrc.json#L19) ( default = "Pixel_3_XL_API_29")
+If you want to run on android, you will need to check the emulator and start it before execute the test, update yours on  [detox configuration](https://github.com/TamaraTorres/DetoxDemo/blob/master/.detoxrc.json#L19) ( default = "Pixel_3_XL_API_29")
 
 `detox build -c android.debug`
 
