@@ -49,4 +49,4 @@ Please check to start metro too and do not close that terminal windows while you
 `yarn start`
 
 
-
+![detoxDemoOnIOs](https://user-images.githubusercontent.com/6197753/86273838-361ca180-bba7-11ea-8f4e-f72170e3c588.GIF)
