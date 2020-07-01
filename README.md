@@ -7,6 +7,10 @@ You can follow [HelloWorld example](https://github.com/amandeepmittal/rn-HelloWo
 
 To setup Detox please look on the [Getting Started](https://github.com/wix/Detox/blob/DetoxNext/docs/Introduction.GettingStarted.md)
 
+
+<img width="833" alt="demo detox example" src="https://user-images.githubusercontent.com/6197753/86271750-d375d680-bba3-11ea-8cfc-3943feb7a4ea.png">
+
+
 ## Prerequisites
 For running on ios
 - Xcode 10.2+ with Xcode command line tools
@@ -33,7 +37,6 @@ If you want to run on ios, you will need to check the simulator you have running
 
 `detox test -c ios.debug`
 
-
 If you want to run on android, you will need to check the emulator and start it before execute the test, update yours on  [detox configuration](https://github.com/TamaraTorres/DetoxDemo/blob/master/.detoxrc.json#L19) ( default = "Pixel_3_XL_API_29")
 
 `detox build -c android.debug`
@@ -44,4 +47,6 @@ If you want to run on android, you will need to check the emulator and start it 
 Please check to start metro too and do not close that terminal windows while you are running the tests 
 
 `yarn start`
+
+
 
